@@ -751,6 +751,42 @@ kubectl -n argocd get secret argocd-initial-admin-secret \
 3. Clicking reveals `todo-deployment` and `todo-service`
 
 ---
+## Screenshots
+
+### 📦 Part 1 - Dockerization & CI
+
+- ![Cloning the repository](images/img1.png)
+- ![MongoDB running in Docker](images/img2.png)
+- ![App running on localhost](images/img3.png)
+
+---
+
+### 🧰 Part 2 - Ansible VM Setup
+
+- ![WSL2 Ubuntu with IP discovery via ip addr](images/img4.png)
+- ![SSH access to target with Ansible inventory setup](images/img5.png)
+- ![Playbook run output (Ansible installing Docker)](images/img6.png)
+- ![Docker version + docker ps output after installation](images/img7.png)
+
+---
+
+### 🐳 Part 3 - Docker Compose & Auto Updates
+
+- ![Docker Compose file and folder structure](images/img8.png)
+- ![docker inspect mongo showing health status](images/img9.png)
+- ![docker ps showing all 3 containers running](images/img10.png)
+- ![Watchtower logs detecting and pulling a new image](images/img11.png)
+- ![Web app after header update (UI shows updated text)](images/img12.png)
+
+---
+
+### ☸️ Part 4 - Kubernetes + ArgoCD
+
+- ![kubectl get nodes showing working K3d cluster](images/img13.png)
+- ![kubectl get pods after image import](images/img14.png)
+- ![Port-forward success and browser view of http://localhost:4001](images/img15.png)
+- ![ArgoCD web UI showing todo-app in synced/healthy state](images/img16.png)
+- ![YAML structure in ~/todo-deployment folder (with kustomization.yaml)](images/img17.png)
 
 
 ## Screenshots
