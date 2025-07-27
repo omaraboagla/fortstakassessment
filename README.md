@@ -2,12 +2,17 @@
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
+2. [Project Requirements](#project-requirements)
 2. [Part 1 - Dockerization & CI](#part-1---dockerization--ci)
 3. [Part 2 - Ansible VM Setup](#part-2---ansible-vm-setup)
 4. [Part 3 - Docker Compose & Auto Updates](#part-3---docker-compose--auto-updates)
 5. [Part 4 (Bonus) - Kubernetes + ArgoCD](#part-4-bonus---kubernetes--argocd)
 6. [Screenshots](#screenshots)
 7. [Assumptions & Notes](#assumptions--notes)
+
+## Project Requirements
+
+![Project Requirements](images/projectreq.png)
 
 ---
 
