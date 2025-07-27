@@ -10,15 +10,17 @@
 6. [Screenshots](#screenshots)
 7. [Assumptions & Notes](#assumptions--notes)
 
-## Project Requirements
-
-![Project Requirements](images/projectreq.png)
-
 ---
 
 ## Project Overview
 
 A DevOps implementation of a todo-list pre-made app covering containerization, automation, CI/CD, and deployment strategies.
+
+---
+
+## Project Requirements
+
+![Project Requirements](images/projectreq.png)
 
 ---
 
